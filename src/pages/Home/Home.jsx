@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>Hacktoberfest BH 2019</header>
-      <main>
+      <main className = {styles.main}>
         <div className={styles.content}>
           <Card
             name="nata.house"
